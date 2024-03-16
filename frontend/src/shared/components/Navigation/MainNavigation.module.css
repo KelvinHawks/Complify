@@ -1,0 +1,33 @@
+.main_navigation__menu_btn {
+  display: none;
+}
+.main_navigation__header_nav {
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .main_navigation__menu_btn {
+    border: none;
+    display: block;
+    background: transparent;
+    font-size: 28px;
+    color: #379ae6;
+    font-weight: 700;
+  }
+  .main_navigation__close_btn {
+    margin: 23px 17px;
+    border: none;
+    display: block;
+    background: transparent;
+    font-size: 28px;
+    color: #379ae6;
+    font-weight: 700;
+  }
+  .main_navigation__header_nav {
+    display: none;
+  }
+  .main_navigation__drawer_nav {
+    height: 100%;
+  }
+}
